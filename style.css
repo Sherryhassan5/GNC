@@ -1,5 +1,6 @@
 .bg_home {
-    background-color: rgba(0, 0, 0, 0.719);
+  background: url("./imgs/bg_home.jpg") no-repeat center bottom/cover;
+    
     max-width: 100vw;
     height: 760px;
     margin-top: -100px;
@@ -31,18 +32,6 @@ nav{
 .text-at-home{
     font-size: 2.5vw;
 }
-.bg_home::before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    background: url("./imgs/bg_home.jpg") no-repeat center bottom/cover;
-    opacity: 0.6;
-    z-index: -1;
-}
-
 
 .info{
   background-color: black;
@@ -135,7 +124,7 @@ padding: 100px;
 
 .contacting-info{
     padding: 50px 100px;
-    background-color: rgba(192, 150, 11, 0.801);
+    background-color: #d80c0c;
     display: flex;
     gap: 20px;
   }
@@ -196,11 +185,11 @@ padding: 100px;
     padding: 0.4rem 0.55rem;
     height: 33px;
     width: 33px;
-    background-color: #1eb2a6;
+    background-color: white;
     border-radius: 50%;
     margin: 25px 5px 0px 5px;
     font-size: 1rem;
-    color: white;
+    color: #d80c0c;
     transition: all 0.5s;
     cursor: pointer;
   }
@@ -243,7 +232,7 @@ padding: 100px;
 
 footer{
     padding: 10px 50px;
-    background-color: rgba(192, 150, 11, 0.801);
+    background-color: #d80c0c;
   }
   
 /* media quiries */
@@ -395,7 +384,7 @@ font-weight: 600;
     color: white;
 }
 .green{
-    color: #1eb2a6;
+    color: white;
 }
 .smoky{
   color: rgba(0, 0, 0, 0.388);
